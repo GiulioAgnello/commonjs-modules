@@ -1,3 +1,4 @@
-import fullName from "./names.js";
+import something from "./names.js";
 
-console.log(fullName);
+something("Giulio", "gs");
+console.log(something("Giulio", "gs"));

@@ -1,3 +1,5 @@
-const fullName = (firstName, lastName) => firstName + lastName;
+export default function (firstName, lastName) {
+  const fullname = firstName + lastName;
 
-module.exports = { fullName };
+  return fullname;
+}
