@@ -1,3 +1,12 @@
 const { fullName } = require("./names");
 
-console.table(fullName("Giulio", "Agnello"));
+const { hobbyes } = require("./hobbies");
+
+const init = () => {
+  const people = {
+    fullname: { fullName },
+    hobbies: { hobbyes },
+  };
+  console.log(people);
+};
+init();
