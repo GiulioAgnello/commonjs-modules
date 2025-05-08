@@ -1,3 +1,3 @@
-const fullname = require("./names");
+import fullName from "./names.js";
 
-console.log(fullname);
+console.log(fullName);
