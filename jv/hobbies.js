@@ -1,4 +1,10 @@
-import something from "./names.js";
+const { firstName, lastName } = require("./names");
 
-something("Giulio", "gs");
-console.log(something("Giulio", "gs"));
+const init = () => {
+  const people = {
+    fullName: { firstName, lastName },
+  };
+  console.log(people);
+};
+
+init();

@@ -1,5 +1,7 @@
-export default function (firstName, lastName) {
-  const fullname = firstName + lastName;
+const firstName = "giulio";
+const lastName = "Agnello";
 
-  return fullname;
-}
+module.exports = {
+  firstName,
+  lastName,
+};
