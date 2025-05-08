@@ -1,1 +1,3 @@
-export default 3.14;
+const fullName = (firstName, lastName) => firstName + lastName;
+
+module.exports = { fullName };
