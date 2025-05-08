@@ -1,7 +1,12 @@
-const firstName = "giulio";
-const lastName = "Agnello";
+// const fullName = (firstName, lastName) => {
+//   firstName = "Giulio";
+//   lastName = "Agnello";
+//   return firstName + lastName;
+// };
+// export { fullName };
 
-module.exports = {
-  firstName,
-  lastName,
+const fullName = function namesfirst() {
+  const firstName = (firstName = "");
+  const lastName = (lastName = "");
 };
+module.exports = { fullName };
